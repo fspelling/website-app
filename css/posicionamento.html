@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>galeria</title>
+    <meta charset="" />
+
+    <style>
+        body {
+            background-color: rgb(57, 136, 57);
+        }
+
+        #conteudo-principal {
+            background-color: #ffffff;
+            width: 600px;
+            padding: 10px;
+            margin: 30px auto;
+            margin-top: 140px;
+            position: relative;
+        }
+
+        .caixa {
+            background-color: green;
+            color: #ffffff;
+            width: 100px;
+            height: 100px;
+        }
+
+        #relativo {
+            position: relative;
+            left: -30px;
+            width: 660px;
+        }
+
+        #obsoluta {
+            position: absolute;
+            bottom: 0px;
+            right: 10px;
+        }
+
+        #fixo {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            background-color: black
+        }
+    </style>
+</head>
+
+<body>
+    <div id="conteudo-principal">
+        <h1>conteudo</h1>
+
+        <h4>Relative</h4>
+        <div id="relativo" class="caixa">relative</div>
+
+        <h4>Obsolute</h4>
+        <div id="obsoluta" class="caixa">obsolute</div>
+
+        <h4>Fixed</h4>
+        <div id="fixo" class="caixa">fixed</div>
+    </div>
+</body>
+
+</html>
